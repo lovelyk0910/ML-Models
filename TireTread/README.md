@@ -19,6 +19,7 @@ Class: Numeric
 Description: Tread depth in mm (the lower the number, the "balder" the tire)
 
 Dependent Variable
+
 Column: Miles 
 Class: Integer 
 Description: # Miles driven on the tire
