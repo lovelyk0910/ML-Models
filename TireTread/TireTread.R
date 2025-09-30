@@ -93,3 +93,8 @@ ggplot(tireTread5, mapping= aes(x = Miles, y = TreadDepth)) +
   geom_smooth(method = "lm", se = FALSE, color = "red") +
   labs(x = "Miles", y = "Tread Depth", 
        title = "Tire Miles and Tread Depth Scatter Plot")
+
+
+# The scatterplot shows a negative correlation between Tire Miles and Tread Depth, 
+# indicating that tread depth decreases as mileage increases. This inverse relationship 
+# reflects normal tire wear, where higher usage and friction gradually reduce tread depth.
